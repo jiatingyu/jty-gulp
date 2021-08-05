@@ -1,0 +1,38 @@
+{
+  "name": "jty-gulp",
+  "version": "1.0.0",
+  "description": "gulp build tools",
+  "main": "gulpfile.js",
+  "bin": "bin/index.js",
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiatingyu"
+  },
+  "homepage": "https://github.com/zce/zce-pages#readme",
+  "scripts": {},
+  "author": "jiatingyu",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "4.0.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.37.2"
+  }
+}
